@@ -3,7 +3,7 @@
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1004206704994566164", ""], 
+  ownerID: ["1090957416880943144", ""], 
   mongodbUri : "mongodb+srv://souvik6669:<f8vctE3e1LMTrwgz>@cluster0.2s18ox8.mongodb.net/",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
