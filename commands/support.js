@@ -9,10 +9,7 @@ module.exports = {
     options: [],
     run: async (client, interaction, lang) => {
         try {
-            const supportServerLink = "https://discord.gg/xQF9f9yUEM";
-            const githubLink = "https://github.com/GlaceYT";
-            const replitLink = "https://replit.com/@GlaceYT";
-            const youtubeLink = "https://www.youtube.com/@GlaceYT";
+            const supportServerLink = "https://discord.gg/RDNkRcazmt";
 
             const embed = new EmbedBuilder()
                 .setColor('#b300ff')
@@ -23,11 +20,9 @@ module.exports = {
                 })
                 .setDescription(lang.support.embed.description
                     .replace("{supportServerLink}", supportServerLink)
-                    .replace("{githubLink}", githubLink)
-                    .replace("{replitLink}", replitLink)
-                    .replace("{youtubeLink}", youtubeLink)
+                     
                 )
-                .setImage('https://cdn.discordapp.com/attachments/1113800537402527903/1236803979996958740/11.png?ex=663956f7&is=66380577&hm=3b3c19a11adcb979517a133f2907f671305d23f1f5092cf7df043e6d5cab07bc&')
+                .setImage('https://cdn.discordapp.com/attachments/1297859724565413940/1319354271572951140/Statue_Of_God_Solo_Leveling_GIF_Statue_of_god_Solo_leveling_Grin_GIFs_entdecken_und_teilen.gif?ex=67a4472a&is=67a2f5aa&hm=8cf0c18744e7f4231f52ccc1f6aeeda0c6399ec12197fe152930e45e435ca42e&')
                 .setTimestamp();
 
             await interaction.reply({ embeds: [embed] });
