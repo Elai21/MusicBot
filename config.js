@@ -3,7 +3,7 @@
 module.exports = {
   TOKEN: "",
   language: "en",
-  ownerID: ["1090957416880943144", ""], 
+  ownerID: ["1090957416880943144"], 
   mongodbUri : "mongodb+srv://souvik6669:<f8vctE3e1LMTrwgz>@cluster0.2s18ox8.mongodb.net/",
   setupFilePath: './commands/setup.json',
   commandsDir: './commands',  
@@ -16,16 +16,16 @@ module.exports = {
   nodes: [
      {
       name: "Koi Node V4",
-      password: "prplmoe.me",
-      host: "lavav4.prplmoe.me",
-      port: 1118,
+      password: "youshallnotpass",
+      host: "lavalink.jirayu.net",
+      port: 13592,
       secure: false
     },
     {
       name: "ChalresNaig Node",
-      password: "NAIGLAVA-dash.techbyte.host",
-      host: "lavahatry4.techbyte.host",
-      port: 3000,
+      password: "albinhakanson.se",
+      host: "lavalink1.albinhakanson.se",
+      port: 1141,
       secure: false
     }
   ]
